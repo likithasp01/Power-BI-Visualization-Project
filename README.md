@@ -1,32 +1,17 @@
 
-
 # Salary Dataset Analysis Dashboard (Power BI)
 
-## Overview
+## Problem Statement
 
-This project analyzes salary data using Power BI to identify the factors that influence employee compensation. The dashboard provides insights into salary trends across different education levels, experience levels, job roles, gender categories, and other demographic factors.
+Organizations need to understand the factors that influence employee salaries to make informed compensation decisions. This project analyzes salary data to identify how education level, years of experience, job role, gender, and other demographic factors impact employee salaries. An interactive Power BI dashboard was developed to transform raw data into meaningful business insights for better decision-making.
 
-The objective of this project is to transform raw salary data into meaningful business insights through data cleaning, modeling, visualization, and interactive reporting.
+---
 
-## Project Objectives
+## Dataset
 
-* Analyze salary distribution across different employee groups.
-* Identify key factors affecting salary.
-* Compare salary trends based on education and experience.
-* Explore demographic patterns within the workforce.
-* Create an interactive dashboard for decision-making.
+**Source:** Salary Dataset
 
-## Tools Used
-
-* Power BI
-* Power Query
-* DAX
-* Data Modeling
-* Data Visualization
-
-## Dataset Features
-
-The dataset contains information such as:
+The dataset contains employee-related information, including:
 
 * Age
 * Gender
@@ -35,71 +20,56 @@ The dataset contains information such as:
 * Years of Experience
 * Salary
 
-## Data Preparation
+---
 
-The following preprocessing steps were performed:
+## Tools Used
 
-* Removed duplicates
-* Checked for missing values
-* Standardized categorical data
-* Verified data consistency
-* Created calculated columns and measures where required
+* **Power BI** – Dashboard creation and interactive reporting
+* **Power Query** – Data cleaning and transformation
+* **DAX** – Calculated columns, measures, and KPIs
+* **Data Modeling** – Building relationships between data
+* **Data Visualization** – Creating insightful charts and reports
 
-## Dashboard Components
+---
 
-### Executive Summary
+## Process
 
-Provides an overview of:
+###  Data Collection
 
-* Total Employees
-* Average Salary
-* Highest Salary
-* Lowest Salary
+* Imported the salary dataset into Power BI.
 
-### Salary Analysis
+###  Data Cleaning
 
-* Average Salary by Education Level
-* Average Salary by Gender
-* Average Salary by Experience
-* Salary Distribution
+* Removed duplicate records.
+* Checked and handled missing values.
+* Standardized categorical values.
+* Verified data consistency.
+* Corrected data types where required.
 
-### Experience Insights
+###  Data Transformation
 
-Analyzes how years of experience influence salary growth.
+* Used Power Query to clean and prepare the dataset.
+* Created calculated columns and DAX measures.
+* Built a data model for efficient analysis.
 
-### Education Insights
+### Dashboard Development
 
-Compares salary trends among different education levels.
+* Designed an interactive Power BI dashboard.
+* Created KPI cards for salary statistics.
+* Added slicers for dynamic filtering.
+* Developed visualizations to analyze salary trends across different employee groups.
 
-### Demographic Analysis
+---
 
-Explores workforce composition and salary differences across demographic groups.
+## Key Findings
 
-## Key Insights
+* Employees with higher education levels generally earn higher salaries.
+* Salary increases with years of professional experience.
+* Certain job roles receive significantly higher compensation than others.
+* Salary distribution varies across different demographic groups.
+* Interactive filtering enables detailed analysis based on employee characteristics.
 
-* Higher education levels generally correspond to higher salaries.
-* Salary tends to increase with years of experience.
-* Certain job roles command significantly higher compensation.
-* Demographic factors may influence salary distribution.
-
-## Skills Demonstrated
-
-* Data Cleaning
-* Power Query Transformation
-* Data Modeling
-* DAX Measures
-* Dashboard Design
-* Business Intelligence
-* Data Visualization
-
-
-## Future Improvements
-
-* Add forecasting visuals.
-* Create advanced DAX measures.
-* Incorporate KPI cards.
-* Enable drill-through reports.
-* Connect to live data sources.
+---
 
 
 ## Dashboard Preview
